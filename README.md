@@ -22,3 +22,46 @@ $ python main.py
 Comienza a etiquetar
 ```
 Una buena metodología en el caso de tener una clase por imagen es tener las clases separadas por carpetas, te hará avanzar más rápido y los trackers serán más efectivos, en el caso de que no quieras usar trackers usa el DoNothing, puede ser el caso en el que el tracker no sea la opción más rápida debido a que las imagenes son muy distintas entre si.
+
+
+
+```sh
+
+│   .gitignore
+│   main.py
+│   README.md
+│   requirements.txt
+│   test.txt
+│
+├───config
+│       class_list.txt
+│       template_end.xml
+│       template_ini.xml
+│       template_obj.xml
+│       tracker_list.txt
+│
+├───examples
+│       1.xml
+│       191.xml
+│       304.xml
+│
+├───imagen
+│       1.jpg
+│       501.jpg
+│       502.jpg
+│       503.jpg
+│
+└───src
+        comboBoxWidget.py
+        controller.py
+        file_reader.py
+        file_saver.py
+        folderReader.py
+        imageWidget.py
+        listWidget.py
+        mainWindow.py
+        trackerFactory.py
+        utils.py
+        xmlCreator.py
+
+```
